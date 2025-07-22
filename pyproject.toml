@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chemical_annotator"
+version = "1.0"
+description = "A package for chemical annotation using ChEMBL and PubChem data sources."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Flavio Ballante", email = "flavioballante@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Scientific/Engineering :: Chemistry"
+]
+keywords = ["chemical annotation", "ChEMBL", "PubChem", "cheminformatics"]
+dependencies = [
+    "pandas",
+    "pubchempy",
+    "chembl_webresource_client",
+    "openpyxl",
+    "tqdm",
+    "requests"
+]
+
+[project.scripts]
+chemical_annotator = "chemical_annotator.chemical_annotator:main"
+
+[tool.setuptools]
+packages = {find = {where = ["."], include = ["chemical_annotator", "utils", "utils.*"]}}
+include-package-data = true
+zip-safe = false
+
