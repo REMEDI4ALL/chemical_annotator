@@ -1,4 +1,7 @@
 # Chemical Annotator
+
+### [Paper on bioRxiv](https://doi.org/10.1101/2025.07.23.666341)
+
 The Chemical Annotator is a tool to collect drug annotations from public chemical databases (including, [ChEMBL](https://www.ebi.ac.uk/chembl/), [UniChem](https://www.ebi.ac.uk/unichem/), [PubChem](https://pubchem.ncbi.nlm.nih.gov/) and [KEGG](https://www.genome.jp/kegg/pathway.html)) based on exact match with query pattern.
 This repository contains code and instructions to run the method on your own chemical library.
 If you have any question, feel free to open an issue or reach out to: flavioballante@gmail.com
