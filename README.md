@@ -74,7 +74,8 @@ If you use the Chemical Annotator in your research, please cite our work as foll
 ```
 Jeanette Reinshagen, Brinton Seashore-Ludlow, Yojana Gadiya, Anna-Lena Gustavsson, Ziaurrehman Tanoli, Tero Aittokallio,
 Johanna Huchting, Annika Jenmalm-Jensen, Philip Gribbon, Andrea Zaliani & Flavio Ballante (2025).
-“From Library to Landscape: Integrative Annotation Workflows for Compound Libraries in Drug Repurposing”, submitted.
+“From Library to Landscape: Integrative Annotation Workflows for Compound Libraries in Drug Repurposing”.
+bioRxiv 2025.07.23.666341; doi: https://doi.org/10.1101/2025.07.23.666341.
 
 GitHub repository: https://github.com/REMEDI4ALL/chemical_annotator
 ```
